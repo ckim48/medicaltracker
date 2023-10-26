@@ -98,8 +98,19 @@ h6 {
   transition: all 0.5s;
 }
 
+.bigfont{
+    font-size: 30px;
+}
+.button-image {
+    cursor: pointer; /
+    border: 1px solid #ccc; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+        max-width: 200px;
+
+}
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 14px;
   padding: 0;
   margin: 0;
   display: inline-block;
@@ -832,6 +843,16 @@ section {
   padding: 60px 0 30px 0;
 }
 
+#advanced-features .section-header {
+  text-align: left !important;
+
+}
+#advanced-features .section-divider{
+
+ margin: 0 50px;
+}
+
+
 #advanced-features h2 {
   font-size: 26px;
   font-weight: 700;
@@ -839,11 +860,10 @@ section {
 }
 
 #advanced-features h3 {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  font-style: italic;
-  color: #999;
+font-size: 32px;
+    color: #111;
+    font-weight: 400;
+    text-align: left !important;
 }
 
 #advanced-features p {
@@ -852,6 +872,7 @@ section {
    font-size: 17px;
   margin-bottom: 30px;
 }
+
 
 #advanced-features i {
   color: #666666;
@@ -862,13 +883,6 @@ section {
   line-height: 1;
 }
 
-#advanced-features i:before {
-  background: #5D62DB;
-  background: linear-gradient(45deg, #5D62DB 0%, #55fabe 100%);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 #advanced-features .advanced-feature-img-right {
   max-width: 100%;
