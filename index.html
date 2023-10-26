@@ -132,9 +132,51 @@
             <p class="mt-md-5">
               Discover our specially tailored mobile application designed to revolutionize sleep monitoring. Utilizing advanced sensors in mobile devices, our app collects and analyzes sleep data, alerting supervisors of health-threatening issues.
             </p>
-<!--             <a href="#about" class="btn-get-started">Learn More</a>
-            <a href="#about" class="btn-get-started">Learn More</a>
- -->
+   <a href="#about" class="btn btn-primary me-md-3" id="userVideoLink" data-bs-toggle="modal" data-bs-target="#videoModal">User-side video</a>
+    <a href="#about" class="btn btn-primary" id="adminVideoLink"data-bs-toggle="modal" data-bs-target="#videoModal2">Admin-side video</a>
+    
+
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel">User-side Video</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+<div class="modal-body align-items-center text-center">
+    <div id="videoContainer">
+        <video class="mx-auto" controls width="480" height="300" id="videoPlayer">
+            <source src="assets/img/uservideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+
+    <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel">Admin-side Video</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+<div class="modal-body align-items-center text-center">
+    <div id="videoContainer">
+        <video class="mx-auto" controls width="480" height="300" id="videoPlayer">
+            <source src="assets/img/adminvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
           </div>
         </div>
 
@@ -256,7 +298,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>

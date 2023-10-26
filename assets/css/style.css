@@ -662,6 +662,23 @@ section {
     margin: 4px 8px;
   }
 }
+.btn-primary{
+  border: 1px solid #B9C5D8;
+  background-color:#2D5CA5;
+}
+.btn-primary:hover{
+  border: 1px solid #B9C5D8;
+  background-color:white;
+  color:black;
+}
+.btn-primary:active{
+
+  color:#60AAF0;
+}
+.close{
+  border: none;
+  background-color: white;
+}
 #screenshots .swiper-pagination .swiper-pagination-bullet{
   border: 1px solid #2D5CA5 !important;
 }
