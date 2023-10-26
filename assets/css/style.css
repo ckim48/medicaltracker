@@ -662,7 +662,14 @@ section {
     margin: 4px 8px;
   }
 }
+#screenshots .swiper-pagination .swiper-pagination-bullet{
+  border: 1px solid #2D5CA5 !important;
+}
 
+#screenshots .swiper-pagination .swiper-pagination-bullet-active{
+  background-color: #B9C5D8 !important;
+}
+}
 #hero .btns a:hover {
   color: #2D5CA5;
 }
