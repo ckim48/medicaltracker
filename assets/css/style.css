@@ -631,7 +631,14 @@ section {
   font-size: 24px;
 }
 .about-img{
-  width:70%;
+  width:78%;
+}
+.caption{
+  font-weight: 700;
+  font-size: 18px;
+}
+.mymagin{
+  margin-right: 30px !important;
 }
 #about .content h3 {
   color: #777;
@@ -665,6 +672,16 @@ section {
 .btn-primary{
   border: 1px solid #B9C5D8;
   background-color:#2D5CA5;
+}
+.font-white{
+  color:white;
+  font-size: 15px;
+}
+.btn-warning{
+  width: 200px;
+  text-align: center;
+  border: 1px solid #B9C5D8;
+  background-color: #5D62DB;
 }
 .btn-primary:hover{
   border: 1px solid #B9C5D8;
