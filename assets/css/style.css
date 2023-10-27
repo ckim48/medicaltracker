@@ -542,12 +542,12 @@ section {
 .section-header .section-title {
   font-size: 32px;
   color: #111;
-  text-align: center;
+  text-align: left;
   font-weight: 400;
 }
 
 .section-header .section-description {
-  text-align: center;
+  text-align: left;
   padding-bottom: 40px;
   color: #777;
   font-style: italic;
@@ -559,7 +559,7 @@ section {
   height: 3px;
   background: #5D62DB;
 /*  background: linear-gradient(0deg, #5D62DB 0%, #55fabe 100%);*/
-  margin: 0 auto;
+  margin: 0 30px;
   margin-bottom: 20px;
 }
 
@@ -654,7 +654,7 @@ section {
   font-size: 24px;
 }
 .about-img{
-  width:78%;
+  width:90%;
 }
 .caption{
   font-weight: 700;
@@ -939,7 +939,7 @@ margin: 0px !important;
 }
 #features .section-divider{
 
- margin: 0 7px;
+ margin: 0 20px;
 }
 
 
