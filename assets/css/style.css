@@ -126,13 +126,13 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #header #logo h1 {
+/*  #header #logo h1 {
     font-size: 28px;
   }
 
   #header #logo img {
     max-height: 40px;
-  }
+  }*/
 }
 
 /*--------------------------------------------------------------
@@ -636,6 +636,17 @@ section {
   overflow: hidden;
 }
 
+#about p{
+  text-align: justify;
+
+}
+#features p{
+    text-align: justify;
+}
+#advanced-features p{
+  text-align: justify;
+}
+
 #about .content .h2 {
   color: #333;
   font-weight: 300;
@@ -648,15 +659,18 @@ section {
   font-weight: 700;
   font-size: 18px;
 }
-.mymagin{
+/*.mymagin{
   margin-right: 30px !important;
-}
+}*/
 #about .content h3 {
   color: #777;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
   font-style: italic;
+}
+#about p{
+  margin-right: 110px !important;
 }
 .appp{
   cursor: pointer;
@@ -675,10 +689,59 @@ section {
   font-size: 15px !important;
   color:black !important;
 }
+@media (max-width: 1075px) {
+  #about p{
+    margin: 0 !important;
+  }
+  }
+  
 @media (max-width: 575px) {
   #hero .btns a {
     margin: 4px 8px;
   }
+  #about p{
+    margin: 0 !important;
+  }
+  .caption-container{
+    display: none !important;
+  }
+
+/*  .mymagin{
+  margin: 0px;
+
+}*/
+}
+.caption-container {
+  border: 1px solid black;
+  padding: 20px;
+  width: 500px;
+  border-radius: 15px;
+  margin-right: 130px !important;
+  height: 250px;
+  display: flex;
+  margin-top: 120px;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.margin-leftmy{
+  text-align: left !important;
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.caption {
+  margin: 0;
+}
+
+
+
+.screens-slider{
+margin: 0px !important;
 }
 .btn-primary{
   border: 1px solid #B9C5D8;
@@ -847,9 +910,28 @@ section {
   text-align: left !important;
 
 }
+
 #advanced-features .section-divider{
 
  margin: 0 50px;
+}
+
+
+#features .features-row {
+  padding: 60px 0 30px 0;
+}
+
+#features .section-header {
+  text-align: left !important;
+
+}
+#features .section-title {
+  text-align: left !important;
+
+}
+#features .section-divider{
+
+ margin: 0 7px;
 }
 
 
