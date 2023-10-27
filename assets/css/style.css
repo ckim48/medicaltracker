@@ -441,6 +441,7 @@ h6 {
   #hero h2 {
     font-size: 28px;
     line-height: 36px;
+    margin-top: 30px;
   }
 }
 
@@ -776,6 +777,9 @@ margin: 0px !important;
 }
 #screenshots .swiper-pagination .swiper-pagination-bullet{
   border: 1px solid #2D5CA5 !important;
+}
+#screenshots .section-title{
+  margin-top: 55px;
 }
 
 #screenshots .swiper-pagination .swiper-pagination-bullet-active{
